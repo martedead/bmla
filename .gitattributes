@@ -13,3 +13,7 @@
 *.fig binary
 *.slx binary
 *.mltbx binary
+
+# Preserve the exact frozen numerical core byte-for-byte.
+# This prevents Git from changing line endings and invalidating its SHA-256.
+src/+bmla/private/bmla_v4_1_radius_consistent_solver.m -text
