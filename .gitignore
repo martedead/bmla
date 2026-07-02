@@ -1,0 +1,38 @@
+# MATLAB temporary and autosave files
+*.asv
+*.m~
+*.autosave
+
+# MATLAB generated artifacts
+slprj/
+codegen/
+cache/
+work/
+*.slxc
+
+# Test, coverage, and local result artifacts
+coverage/
+test-results/
+results/
+*.cov
+*.coverage
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python artifacts (for the future Python implementation)
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# Do not ignore all .mat files globally:
+# small reference datasets may be intentionally versioned.

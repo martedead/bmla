@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use BMLA in your research, please cite the software and the associated article."
+title: "BMLA: A radius-consistent derivative-free solver for nonlinear systems"
+type: software
+authors:
+  - family-names: "Chávez-Hurtado"
+    given-names: "José L."
+    orcid: "https://orcid.org/0000-0003-4115-0999"
+repository-code: "https://github.com/martedead/bmla"
+url: "https://github.com/martedead/bmla"
+version: "0.1.0"
+date-released: "2026-07-02"
+license: "Apache-2.0"
+keywords:
+  - nonlinear equations
+  - derivative-free methods
+  - affine models
+  - trust-region methods
+  - scientific computing
